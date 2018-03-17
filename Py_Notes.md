@@ -3,7 +3,7 @@
 Various data containers available:
 
 * **Lists** 
-* **Dictionaries** -  concists of data in key-value pairs
+* **Dictionaries** -  consists of data in key-value pairs
 * **Tuples** - Immutable objects, can contain multiple data types
 * **Sets** - Contains only distinct values
 * **Dataframes** (`pandas`) - Like a matrix, but different data types can be present 
@@ -27,10 +27,8 @@ Other important basics
 * **List comprehensions**
 * **Lambda functions** 
 
-```python
-```
 
-Importing local data
+#### Importing local data
 ```python
 !ls #explore working directory
 file=open('filename.txt',mode='r')
@@ -43,7 +41,7 @@ data=pd.read_csv(filename)
 data.head()
 ```
 
-Importing data from web - Important modules
+#### Importing data from web - Important modules
 
 * `urllib`
 * `requests`
