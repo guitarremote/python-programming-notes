@@ -18,6 +18,8 @@ x=set([1,1,2,3])
 print(x) #will result to {1,2,3}
 df= pd.DataFrame(data=[[1,2],[3,4]]) #Dataframe
 ```
+For extracting data from dictionaries, say for instance the dictionary `dict` defined previously. Using `dict['d']`will give an error as there is not key named `'d'` in the dictionary. The `.get()` method comes in very handy in such cases. Say you have a script that is iterating over a list of key values and one key isn't present in the dictionary, in such cases using the `.get()` method (returns  `None` by default) helps us handle the erros. The return can also be customzed in case a key is not found. For example, using `dict.get('d','')` would return an empty string 
+
 Other important basics
 
 * **Functions**
