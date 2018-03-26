@@ -2,7 +2,7 @@
 
 Various data containers available:
 
-* **Lists** 
+* **Lists** -One of the most fundamental data structures in any language is the array. Python doesn't have a native array data structure, but it has the list which is much more general and can be used as a multidimensional array quite easily.
 * **Dictionaries** -  consists of data in key-value pairs
 * **Tuples** - Immutable objects, can contain multiple data types
 * **Sets** - Contains only distinct values
@@ -23,7 +23,7 @@ For extracting data from dictionaries, say for instance the dictionary `dict` de
 
 #### Importing local data
 ```python
-!ls #explore working directory
+
 file=open('filename.txt',mode='r')
 file.read() # prints the entire txt file
 file.readline() # prints line by line
