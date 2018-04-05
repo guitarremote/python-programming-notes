@@ -6,5 +6,6 @@ This repo consists of a some notes on the basics of programming in python. Some 
 * Classes
 * Iterators, Iterables
 * Control flows
+* `if __name__=='__main__'`
 
 There's still a lot more to cover. Please feel free to contribute. My aim is to make this a one stop place for beginners to brush up their basics.
